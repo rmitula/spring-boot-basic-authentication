@@ -27,7 +27,7 @@ HTTP Status 401 - Full authentication is required to access this resource
 ```
 
 
-Test the `private` endpoint with ROLE_USER account authentication:
+Test the `private` endpoint with `ROLE_USER` account authentication:
 
 ```sh
 curl -u user:password http://localhost:8080/private
@@ -39,7 +39,7 @@ Hello Private!
 
 
 
-Test the `private` endpoint with ROLE_ADMIN account authentication:
+Test the `private` endpoint with `ROLE_ADMIN` account authentication:
 
 ```sh
 curl -u admin:password http://localhost:8080/private
@@ -62,7 +62,7 @@ HTTP Status 401 - Bad credentials
 
 ### Admin access 
 
-Test the `admin` endpoint with ROLE_USER account authentication:
+Test the `admin` endpoint with `ROLE_USER` account authentication:
 
 ```sh
 curl -u user:password http://localhost:8080/admin
@@ -79,7 +79,7 @@ Response:
 }
 ```
 
-Test the `admin` endpoint with ROLE_ADMIN account authentication:
+Test the `admin` endpoint with `ROLE_ADMIN` account authentication:
 
 ```sh
 curl -u admin:password http://localhost:8080/admin
