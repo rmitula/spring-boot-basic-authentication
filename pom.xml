@@ -5,7 +5,7 @@
 
 	<groupId>pl.rmitula</groupId>
 	<artifactId>spring-boot-basic-authentication</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0</version>
 	<packaging>jar</packaging>
 
 	<name>spring-boot-basic-authentication</name>
